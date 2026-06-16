@@ -543,7 +543,7 @@ namespace HurricaneVR.Framework.Weapons.Guns
 
             if (ammoGrabbable.Rigidbody)
             {
-                ammoGrabbable.Rigidbody.velocity = direction.normalized * AmmoEjectVelocity;
+                ammoGrabbable.Rigidbody.linearVelocity = direction.normalized * AmmoEjectVelocity;
             }
         }
 
